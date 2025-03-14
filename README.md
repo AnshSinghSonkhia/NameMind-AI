@@ -211,6 +211,22 @@ def get_image_labels(image_path):
 
 ---
 
+### Step 9: Package as EXE
+Install PyInstaller if not done:
+
+```powershell
+pip install pyinstaller
+```
+Create executable:
+
+```powershell
+pyinstaller --onefile --windowed --icon=icon.ico main.py
+```
+
+The EXE will be in dist/ folder
+
+---
+
 ### **Optional Enhancements**
 1. **Code Signing**:
    - Sign your `.exe` with a certificate to avoid "Unknown Publisher" warnings
