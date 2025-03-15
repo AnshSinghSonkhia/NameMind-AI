@@ -220,7 +220,7 @@ pip install pyinstaller
 Create executable:
 
 ```powershell
-pyinstaller --onefile --windowed --icon=icon.ico main.py
+pyinstaller --onefile --windowed --icon=icon.ico --add-data "logo.png;." main.py
 ```
 
 The EXE will be in dist/ folder
