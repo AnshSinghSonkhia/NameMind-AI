@@ -1,3 +1,8 @@
+# NameMind AI
+
+![▶️ Watch the Demo Video](https://github.com/AnshSinghSonkhia/NameMind-AI/blob/main/NameMindAI%20Product%20Demo%20(2).gif)
+
+
 ## Set Up Virtual Environment
 
 > Create and activate virtual environment:
